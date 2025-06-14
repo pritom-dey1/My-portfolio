@@ -9,7 +9,12 @@
 
 /* 3. Tablet Portrait */
 @media (max-width: 768px) {
-
+  .menu-icon{
+    display:none;
+  }
+  .mobile-menu{
+  display:none;
+  }
   .hero{
     width: 80%;
     margin: 0 auto;
