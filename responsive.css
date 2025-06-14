@@ -1,0 +1,262 @@
+/* 1. Mobile Small */
+@media (max-width: 375px) {
+
+
+}
+
+/* 2. Mobile Large */
+@media (max-width: 480px) {}
+
+/* 3. Tablet Portrait */
+@media (max-width: 768px) {
+      .nav_link {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  
+  .menu-icon a{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  .menu-icon i{
+    color: #fff;
+    font-size: 35px;
+    text-decoration: none;
+  }
+  .mobile-menu.active {
+    display: flex;
+  }
+  .github{
+    display: none;
+  }
+  .header{
+    width: 90%;
+  }
+  .hero{
+    width: 80%;
+    margin: 0 auto;
+}
+.hero h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 110%;
+    text-align: center;
+    font-family: Montserrat	;
+}
+.hero p{
+    font-family: poppins;
+    font-size: 15px;
+    text-align: center;
+}
+
+.html svg{
+  width: 30px;
+  height:30px;
+  top: 15%;
+  left: 20%;
+
+}
+
+.css svg{
+      width: 40px;
+  height:40px;  
+    top: 15%;
+    left: 70%;
+    rotate: 18deg;
+
+}
+.js svg{
+          width: 40px;
+  height:40px;  
+    top: 38%;
+    left: 80%;
+    rotate: 18deg;
+
+}
+.react svg{
+          width: 40px;
+  height:40px;  
+    top: 38%;
+    left: 5%;
+    rotate: 18deg;
+}
+.python svg{
+    width: 40px;
+    height:40px;  
+    top: 70%;
+    left: 10%;
+    rotate: -18deg;
+}
+.cpp svg{
+    width: 40px;
+    height:40px;  
+    top: 70%;
+    left: 80%;
+    rotate: 18deg;
+}
+.dj svg{
+    width: 40px;
+    height:40px;  
+    top: 85%;
+    left: 70%;
+    rotate: -18deg;
+}
+.node svg{
+    width: 40px;
+    height:40px;  
+    top: 85%;
+    left: 25%;
+    rotate: -18deg;
+}
+.about_warper{
+  max-width: 90%;
+  margin: 0 auto;
+}
+.about_top .about_cont{
+  text-align: center;
+  width: 90%;
+}
+.about_bottom{
+    flex-direction: column;
+}
+.about_bottom_box{
+    width: 100%;
+}
+.project_war{
+    width: 90%;
+}
+.projects_top{
+    flex-direction: column;
+}
+.allbox{
+width: 100%;
+}
+.cercle{
+    display: none;
+    margin: 0%;
+    padding: 0%;
+}
+.projects_left img{
+width: 100%;
+border-radius: 10px;
+position: relative;
+object-fit: cover;
+height: 280px;
+}
+.projects h2{
+
+  margin-bottom: 50px;
+
+}
+.projects_top{
+  margin: 0px 0;
+ 
+}
+.about_bottom{
+  padding-bottom: 10px;
+}
+.project4{
+    margin-top: 40px;
+}
+.project5{
+    margin-top: 40px;
+}
+.contact_footer_war{
+width: 90%;
+}
+.top_footer .down svg{
+    display: none;
+}
+.lets_talk h2{
+  margin: 0%;
+  font-size: 61px;
+  letter-spacing: 0;
+  line-height: 140%;
+}
+.top_footer .down{
+display: none;
+}
+.lets_talk p{
+letter-spacing: 0;
+font-size: 20px;}
+form{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+  input{
+ 
+  width: 90vw;
+
+}
+textarea{
+  width: 90vw;
+
+}
+.middle_footer{
+    flex-direction: column;
+}
+.contact_footer{
+    height: 100vh;
+    background: none;
+}
+.num_adress{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  height: 280px;
+  margin-top: -10px;
+
+}
+.call {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+}
+.address{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;   
+}
+.call h3{
+  font-weight: 600;
+  font-size: 18px;
+  color: #efe6e6;
+  font-family: poppins;
+}
+.call h5{
+  font-weight: 300;
+  font-size: 20px;
+  color: #efe6e6;
+  font-family: poppins;
+}
+.address h3{
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #efe6e6;
+  font-family: poppins;
+}
+.address h5{
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  color: #efe6e6;
+  font-family: poppins;
+}
+.bottom_footer{
+    flex-direction: column;
+    margin-top: 30px;
+}
+.bottom_footer h5{
+    text-align: center;
+    font-size: 16px;
+}
+}
