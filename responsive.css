@@ -9,12 +9,36 @@
 
 /* 3. Tablet Portrait */
 @media (max-width: 768px) {
-  .menu-icon{
-    display:none;
+  .nav_link {
+    display: none;
   }
-  .mobile-menu{
-  display:none;
+
+  .menu-icon {
+    display: block;
   }
+  
+  .menu-icon a{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  .mobile{
+    display: initial;
+  }
+  .menu-icon i{
+    color: #fff;
+    font-size: 35px;
+    text-decoration: none;
+  }
+  .mobile-menu.active {
+    display: flex;
+  }
+  .github{
+    display: none;
+  }
+  .header{
+    width: 90%;
+  }
   .hero{
     width: 80%;
     margin: 0 auto;
